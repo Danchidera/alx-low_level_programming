@@ -2,16 +2,16 @@
 /**
  * main - Entry point
  * Description:'prints lowercase alphabets'
- * Return: always 0
+ * Return: void 
  */
 void print_alphabet(void)
 {
-	int n;
+	char l;
 
-	while (n <= 122)
+	for (l = 'a'; l <= 'z'; l++)
 	{
-		_putchar(n);
-		n++;
+		_putchar(l);
 	}
 	_putchar('\n');
 }
+
