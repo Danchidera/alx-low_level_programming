@@ -4,10 +4,10 @@
  * @size: the size of the square triangle
  * Return: empty
  */
-void print_square(int size)
+void print_triangle(int size)
 {
 	int x, y, z;
-	
+
 	if (size <= 0)
 	{
 		_putchar('\n');
@@ -24,7 +24,7 @@ void print_square(int size)
 			{
 				_putchar(35);
 			}
-                        _putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
